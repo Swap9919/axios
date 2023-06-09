@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 5% 15% ;
 }
 
 .App-logo {
@@ -35,4 +36,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.card{
+  padding: 2em;
+  border: 1px solid #dbd9d9;
+
+}
+
+.grid{
+  max-width: 120rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
 }
